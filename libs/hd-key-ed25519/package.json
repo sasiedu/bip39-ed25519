@@ -1,0 +1,14 @@
+{
+  "name": "hd-key-ed25519-lib",
+  "version": "2.0.0",
+  "scripts": {
+    "build": "browserify hd-key-ed25519.js --standlone HDKey | uglifyjs > ../../js/hdkey-lib.js"
+  },
+  "dependencies": {
+    "hd-key-ed25519": "2.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^16.5.2",
+    "uglify-js": "^3.14.3"
+  }
+}

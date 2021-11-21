@@ -1,0 +1,14 @@
+{
+  "name": "bip39-external-libs",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "browserify index.js --standalone libs | uglifyjs -c > ../../js/bip39-libs.js"
+  },
+  "dependencies": {
+    "hd-key-ed25519": "^2.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^16.5.2",
+    "uglify-js": "^3.14.3"
+  }
+}
