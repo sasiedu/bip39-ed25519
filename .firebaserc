@@ -1,0 +1,5 @@
+{
+  "projects": {
+    "default": "bip39-ed25519"
+  }
+}
